@@ -1,4 +1,4 @@
-package job
+package job.ch01
 
 case class Job(steps: List[Step]) {
   def execute(): Boolean = steps.forall(step => step.execute())

@@ -1,4 +1,4 @@
-package job
+package job.ch02
 
 case class Job(steps: List[Step]) {
   def execute(): Job = {

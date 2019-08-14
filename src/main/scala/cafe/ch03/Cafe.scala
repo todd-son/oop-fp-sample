@@ -1,5 +1,4 @@
-package cafe
-
+package cafe.ch03
 
 import scala.util.{Failure, Success, Try}
 
